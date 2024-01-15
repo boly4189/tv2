@@ -1,5 +1,5 @@
 {
-"spider":"./pg.jar",
+"spider":"https://raw.githubusercontent.com/gaotianliuyun/gao/master/jar/pg.jar;md5;711ab2f193083d2814783c3271a2da9b",
 "wallpaper":"https://jianbian.chuqiuyu.workers.dev",
 "sites":[
 {"key":"drpy_js_88看球","name":"体育 | 88看球[js]","type":3,"api":"./JS/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./JS/88看球.js"},
