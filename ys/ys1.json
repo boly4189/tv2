@@ -1,6 +1,5 @@
 {
-//{"spider":"https://raw.githubusercontent.com/boly4189/tv2/main/spider.jar",
-{"spider":"./pg.jar",
+{"spider":"https://raw.githubusercontent.com/boly4189/tv2/main/spider.jar",
 "wallpaper":"https://api.likepoems.com/img/bing",
 "sites":[
 {"key":"drpy_js_88看球","name":"体育 | 88看球[js]","type":3,"api":"./JS/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./JS/88看球.js"},
