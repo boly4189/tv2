@@ -2,6 +2,11 @@
 "wallpaper":"https://api.likepoems.com/img/bing",
 "sites":
 	[{"key":"豆瓣","name":"二〇二四","type":3,"api":"csp_Douban","searchable":0},
+	{"key":"drpy_js_小宝影院[飞]","name":"起飞 | 小宝影院[js]","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/小宝影院[飞].js"},
+        {"key":"drpy_js_if101[飞]","name":"起飞 | if101[js]","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/if101[飞].js"},
+        {"key":"drpy_js_欧乐影院[飞]","name":"起飞 | 欧乐影院[js]","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/欧乐影院[飞].js"},
+        {"key":"drpy_js_独播库[飞]","name":"起飞 | 独播库[js]","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/独播库[飞].js"},
+        {"key":"drpy_js_唐人街影视[飞]","name":"起飞 | 唐人街影视[js]","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/唐人街影视[飞].js"},
         {"key":"haiwaicaiji","name":" 🍁海外看影视","type":0,"api":"https://haiwaikan.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":0,"filterable":0},
         {"key":"索尼资源","name":"索尼资源","type":1,"api":"https://suoniapi.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","纪录片","动画片","国产剧","欧美剧","韩剧","日剧","港剧","台剧","泰剧","海外剧","大陆综艺","日韩综艺","港台综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫"]},
         {"key":"哔嘀","name":"哔嘀","type":3,"api":"csp_Bdys","searchable":1,"quickSearch":1,"filterable":1},
