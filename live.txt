@@ -1,3 +1,23 @@
+twtube,#genre#
+中天新聞,https://www.youtube.com/watch?v=oIgbl7t0S_w
+TVBS Live,https://www.youtube.com/watch?v=YvdcZ_jpLXE
+TVBS News,https://www.youtube.com/watch?v=m_dhMSvUCIc
+TVBS新聞台,https://www.youtube.com/watch?v=2mCSYvcfhtc
+寰宇新聞台,https://www.youtube.com/watch?v=6IquAgfvYmc
+寰宇新聞台灣,https://www.youtube.com/watch?v=UcTIv4ZaE5Y
+三立iNEWS,https://www.youtube.com/watch?v=CKjSm5ZeehE
+三立iNEWS+,https://www.youtube.com/watch?v=oZdzzvxTfUY
+東森新聞ㆍ全球,https://www.youtube.com/watch?v=Dn-LI8xzu7I
+東森新聞ㆍ台湾,https://www.youtube.com/watch?v=S5WOGu2HSes
+公視新聞,https://www.youtube.com/watch?v=quwqlazU-c8
+民視新聞,https://www.youtube.com/watch?v=ylYJSBUgaMA
+華視新聞,https://www.youtube.com/watch?v=wM0g8EoUZ_E
+中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
+台視新聞,https://www.youtube.com/watch?v=xL0ch83RAK8
+大愛一臺,https://www.youtube.com/watch?v=MIqUplvSRWA
+大愛二臺,https://www.youtube.com/watch?v=DTNkEm6jaqQ
+鏡新聞,https://www.youtube.com/watch?v=5n0y6b0Q25o
+CNA,https://www.youtube.com/watch?v=XWq5kBlakcQ
 Au,#genre#
 ABC News,https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index.m3u8
 Channel 7,https://npc.cdn.7livecloud.io/hls/live/SYD1/master.m3u8
