@@ -4,6 +4,17 @@
 "sites":
 	[
     {
+      "key": "豆瓣",
+      "name": "豆瓣┃影视",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "changeable": 1,
+      "ext": "./XBPQ/douban.json",
+      "jar": "./jar/fm.jar"
+    },
+     
+   {
       "key": "泥巴",
       "name": "泥巴",
       "type": 3,
