@@ -3,15 +3,7 @@
 "wallpaper":"https://api.likepoems.com/img/bing",
 "sites":
 	[
-	{
-      "key": "泥巴",
-      "name": "泥巴",
-      "type": 3,
-      "api": "csp_NiNi",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {"key":"drpy_js_88看球","name":"体育 | 88看球[js]","type":3,"api":"./JS/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./JS/88看球.js"},
+	{"key":"drpy_js_88看球","name":"体育 | 88看球[js]","type":3,"api":"./JS/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./JS/88看球.js"},
         {"key":"haiwaicaiji","name":" 海外看影视","type":0,"api":"https://haiwaikan.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":0,"filterable":0},
         {"key":"csp_XP_独播库","name":"独播库（XPMF）","type":3,"api":"csp_XPathMacFilter","playerType":0,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/duboku.json"},
         {"key":"drpy_js_独播库[飞]","name":"起飞 | 独播库[js]","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/独播库[飞].js"},
