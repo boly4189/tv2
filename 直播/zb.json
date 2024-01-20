@@ -1,4 +1,4 @@
-{"spider":"https://raw.githubusercontent.com/boly4189/tv2/main/spider.jar",
+{"spider":"https://raw.githubusercontent.com/boly4189/tv2/main/jar/spider.jar",
 "wallpaper":"https://api.likepoems.com/img/bing",
 "sites":
 	[{"key":"网络直播","name":"网络直播","type":3,"api":"./js/drpy.min.js","ext":"./js/JustLive.js"},
