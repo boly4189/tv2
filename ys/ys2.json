@@ -1,14 +1,16 @@
 {
-"spider":"https://raw.githubusercontent.com/boly4189/tv2/main/custom_spider.jar",
-"wallpaper":"https://api.likepoems.com/img/bing",
+  "spider": ".jar/cainisi.jar",
+  "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "sites": [
     {
-      "key": "泥巴",
-      "name": "泥巴",
+      "key": "豆瓣",
+      "name": "豆瓣┃影视",
       "type": 3,
-      "api": "csp_NiNi",
-      "searchable": 1,
-      "changeable": 1
+      "api": "csp_Douban",
+      "searchable": 0,
+      "changeable": 1,
+      "ext": "./XBPQ/douban.json",
+      "jar": "./jar/fm.jar"
     },
     {
       "key": "獨播",
@@ -17,31 +19,54 @@
       "api": "csp_XPathMacFilter",
       "searchable": 1,
       "changeable": 1,
-      "ext": "https://raw.githubusercontent.com/boly4189/tv2/main/XBPQ/duboku.json"
+      "ext": "./XBPQ/duboku.json",
+      "jar": "./jar/fm.jar"
     },
     {
-      "key": "豆瓣",
-      "name": "豆瓣",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0,
-      "changeable": 1,
-      "ext": "https://raw.githubusercontent.com/boly4189/tv2/main/XBPQ/douban.json"
-    },
-    {
-      "key": "看球",
-      "name": "看球",
-      "type": 3,
-      "api": "csp_Kanqiu",
+      "key": "haiwaikan",
+      "name": "海外看",
+      "type": 1,
+      "api": "https://haiwaikan.com/api.php/provide/vod",
       "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
+      "changeable": 1,
+      "categories": [
+        "国产剧",
+        "韩剧",
+        "日剧",
+        "台剧",
+        "泰剧",
+        "港剧",
+        "欧美剧",
+        "动画电影",
+        "韩国综艺",
+        "国产综艺",
+        "日本综艺",
+        "欧美综艺",
+        "冒险片",
+        "剧情片",
+        "动作片",
+        "同性片",
+        "喜剧片",
+        "奇幻片",
+        "恐怖片",
+        "悬疑片",
+        "惊悚片",
+        "战争片",
+        "歌舞片",
+        "灾难片",
+        "爱情片",
+        "犯罪片",
+        "科幻片",
+        "纪录片",
+        "经典片"
+        "日本动漫",
+        "国产动漫",
+        "欧美动漫",       
+      ]
     },
     {
       "key": "索尼",
-      "name": "索尼 ",
+      "name": "索尼┃影视",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -49,85 +74,176 @@
     },
     {
       "key": "量子",
-      "name": "量子",
+      "name": "量子┃影视",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod",
       "searchable": 1,
       "changeable": 1
     },
     {
-      "key": "哔哩",
-      "name": "哔哩",
+      "key": "酷狗",
+      "name": "🎵酷狗┃音乐",
       "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
+      "api": "csp_Kugou",
+      "searchable": 0,
       "changeable": 0,
+      "jar": "./jar/fm.jar"
+    },
+    {
+      "key": "本地",
+      "name": "本地┃文件",
+      "type": 3,
+      "api": "csp_Local",
+      "searchable": 0,
+      "changeable": 0,
+      "jar": "./jar/fm.jar"
+    },
+    {
+      "key": "csp_Nbys",
+      "name": "🛫泥巴┃海外",
+      "type": 3,
+      "api": "csp_NiNi",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "./jar/fm.jar"
+    },
+    {
+      "key": "星星",
+      "name": "🛫星星┃海外",
+      "type": 3,
+      "api": "csp_Star",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "./jar/fm.jar"
+    },
+    {
+      "key": "南瓜",
+      "name": "南瓜┃影视",
+      "type": 3,
+      "api": "csp_NanGua",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "鲲娱七七",
+      "name": "七七┃影视",
+      "type": 3,
+      "api": "csp_Kunyu77",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "一起看",
+      "name": "一起看┃影视",
+      "api": "csp_YQKan",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "低端影视",
+      "name": "低端┃影视",
+      "type": 3,
+      "api": "./JS/drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "./JS/ddys.js"
+    },
+    {
+      "key": "唐人街影院",
+      "name": "🛫唐人街┃海外",
+      "type": 3,
+      "api": "./JS/drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "./JS/唐人街影视[飞].js"
+    },
+    {
+      "key": "快看影视",
+      "name": "快看┃影视",
+      "type": 3,
+      "api": "./JS/drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "./JS/快看.js"
+    },
+    {
+      "key": "网红直播",
+      "name": "网红┃直播",
+      "type": 3,
+      "api": "csp_Yj1211",
+      "searchable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "虎牙直播",
+      "name": "虎牙┃直播",
+      "type": 3,
+      "api": "./JS/drpy2.min.js",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./JS/虎牙直播.js"
+    },
+    {
+      "key": "斗鱼直播",
+      "name": "斗鱼┃直播",
+      "type": 3,
+      "api": "./JS/drpy2.min.js",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./JS/斗鱼直播.js",
       "style": {
         "type": "rect",
-        "ratio": 1.433
-      },
-   {
-      "key": "AList",
-      "name": "AList",
-      "type": 3,
-      "api": "csp_AList",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": "https://fm.t4tv.hz.cz/json/alist.json"
+        "ratio": 1.755
+      }
     },
     {
       "key": "push_agent",
-      "name": "推送",
+      "name": "推送┃链接",
       "type": 3,
       "api": "csp_Push",
-      "searchable": 0,
+      "searchable": 1,
       "changeable": 0,
-      "timeout": 60
+      "jar": "./jar/fm.jar"
     }
   ],
-  "doh": [
+  "parses": [
     {
-      "name": "Google",
-      "url": "https://dns.google/dns-query",
-      "ips": [
-        "8.8.4.4",
-        "8.8.8.8"
-      ]
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Web"
     },
     {
-      "name": "Cloudflare",
-      "url": "https://cloudflare-dns.com/dns-query",
-      "ips": [
-        "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
-        "2606:4700:4700::1001"
-      ]
+      "name": "777",
+      "type": 0,
+      "url": "https://jx.777jiexi.com/player/?url="
     },
     {
-      "name": "AdGuard",
-      "url": "https://dns.adguard.com/dns-query",
-      "ips": [
-        "94.140.14.140",
-        "94.140.14.141"
-      ]
+      "name": "jsonplayer",
+      "type": 0,
+      "url": "https://jx.jsonplayer.com/player/?url="
     },
     {
-      "name": "DNSWatch",
-      "url": "https://resolver2.dns.watch/dns-query",
-      "ips": [
-        "84.200.69.80",
-        "84.200.70.40"
-      ]
-    },
-    {
-      "name": "Quad9",
-      "url": "https://dns.quad9.net/dns-quer",
-      "ips": [
-        "9.9.9.9",
-        "149.112.112.112"
-      ]
+      "name": "xmflv",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
     }
+  ],
+  "flags": [
+    "youku",
+    "tudou",
+    "qq",
+    "qiyi",
+    "iqiyi",
+    "leshi",
+    "letv",
+    "sohu",
+    "imgo",
+    "mgtv",
+    "bilibili",
+    "pptv",
+    "PPTV",
+    "migu"
   ],
   "rules": [
     {
@@ -159,7 +275,6 @@
         "10.3333",
         "16.0599",
         "8.1748",
-        "12.33",
         "10.85"
       ]
     },
@@ -209,8 +324,7 @@
         "hd.ffzy"
       ],
       "regex": [
-        "25.0666",
-        "25.08"
+        "25.0666"
       ]
     },
     {
@@ -239,46 +353,61 @@
       "regex": [
         "video/tos/cn"
       ]
-    },
+    }
+  ],
+  "doh": [
     {
-      "name": "七新嗅探",
-      "hosts": [
-        "api.52wyb.com"
-      ],
-      "regex": [
-        "m3u8?pt=m3u8"
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
       ]
     },
     {
-      "name": "夜市",
-      "hosts": [
-        "yeslivetv.com"
-      ],
-      "script": [
-        "document.getElementsByClassName('vjs-big-play-button')[0].click()"
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
       ]
     },
     {
-      "name": "毛驢",
-      "hosts": [
-        "www.maolvys.com"
-      ],
-      "script": [
-        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
       ]
     }
   ],
-  "ads": [
-    "mozai.4gtv.tv"
-  ],
- "lives": [
-     {
-      "name": "Ray",
+  "lives": [
+    {
+      "name": "live",
       "type": 0,
-      "playerType": 1,
-      "url": "https://xhdwc.tk/tvlive.txt",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-       }
-   ]
+      "url": "https://tvbox.cainisi.cf/TV",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "playerType": 2
+    }
+  ]
 }
