@@ -1,5 +1,4 @@
-{
-  "spider": ".jar/cainisi.jar",
+{"spider":"https://raw.githubusercontent.com/boly4189/tv2/main/jar/custom_spider.jar",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "sites": [
     {
