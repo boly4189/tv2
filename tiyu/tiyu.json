@@ -1,4 +1,4 @@
-{"spider":"https://raw.githubusercontent.com/boly4189/tv2/main/spider.jar",
+{"spider":"https://raw.githubusercontent.com/boly4189/tv2/main/jar/spider.jar",
 "wallpaper":"https://api.likepoems.com/img/bing",
 "sites":
 	[{"key":"88看球","name":"88看球","type":3,"api":"./JS/drpy.min.js","ext":"./JS/88看球.js"},
