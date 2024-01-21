@@ -3,7 +3,7 @@
 "wallpaper":"https://api.likepoems.com/img/bing",
 "sites":
 	[
- {"key":"csp_Bili","name":"🅱️哔哩哔哩","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/Bili.json"},  
+   //{"key":"csp_Bili","name":"🅱️哔哩哔哩","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/Bili.json"},  
    {
       "key": "泥巴",
       "name": "泥巴",
@@ -12,8 +12,11 @@
       "searchable": 1,
       "changeable": 1
     },
-	{"key":"drpy_js_88看球","name":"体育 | 88看球[js]","type":3,"api":"./JS/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./JS/88看球.js"},
+        {"key":"dr_JRKAN直播","name":"🏆🏆🏀JRKAN直播","type":3,"api":"./JS/drpy.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"./JS/JRKAN直播.js"},
+        {"key":"dr_88看球","name":"🏆🏀88看球","type":3,"api":"./JS/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"./JS/88看球.js"},
+    //{"key":"drpy_js_88看球","name":"体育 | 88看球[js]","type":3,"api":"./JS/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./JS/88看球.js"},
         {"key":"haiwaicaiji","name":" 海外看影视","type":0,"api":"https://haiwaikan.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":0,"filterable":0},
+        {"key": "drpy_js_欧帝影院","name": " 🥇欧帝","type": 3,"api": "./JS/drpy2.min.js","ext": "./JS/欧帝影院.js","jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"},
         {"key":"csp_XP_独播库","name":"独播库（XPMF）","type":3,"api":"csp_XPathMacFilter","playerType":0,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/duboku.json"},
         {"key":"drpy_js_独播库[飞]","name":"起飞 | 独播库[js]","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/独播库[飞].js"},
         {"key":"drpy_js_小宝影院[飞]","name":"起飞 | 小宝影院[js]","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/小宝影院[飞].js"},
@@ -38,6 +41,8 @@
     },
         {"key":"低端","name":"低端","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1},
 	{"key":"南瓜","name":"南瓜","type":3,"api":"csp_NanGua","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":""},
+        {"key":"csp_YQKan","name":"🌎一起看","type":3,"api":"csp_YQKan","searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"csp_Auete","name":"🐼奥特","type":3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"量子资源","name":"量子资源","type":1,"api":"https://cj.lziapi.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["动作片","喜剧片","科幻片","恐怖片","爱情片","剧情片","战争片","记录片","国产剧","欧美剧","香港剧","韩国剧","台湾剧","日本剧","海外剧","泰国剧","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"]}],
 "parses":
 	[{"name":"聚合","type":3,"url":"Demo"},
