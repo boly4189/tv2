@@ -28,7 +28,6 @@
 {"key":"低端js","name":"低端影视js","type":3,"api":"./JS/drpy2.min.js","searchable":1,"playerType":2,"quickSearch":1,"filterable":1,"ext":"./JS/ddys.js"},
 {"key":"低端","name":"低端影视","type":3,"api":"csp_Ddrk","playerType":"2","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fty.jar"},
 {"key":"B站","name":"B站影视","type":3,"api":"./JS/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/bzys.js"},
-{"key":"快看","name":"快看影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"一起看","name":"一起看片","type":3,"api":"csp_YQKan","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fty.jar"},
 {"key":"快车资源","name":"快车影视","type":1,"api":"https://caiji.kczyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"categories":["国产剧","战争片","动作片","香港剧"]},
 {"key":"索尼","name":"索尼影视","type":1,"api":"https://suoniapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1,"categories":["动作片","喜剧片","科幻片","恐怖片","爱情片","剧情片","战争片","记录片","国产剧","欧美剧","香港剧","韩国剧","台湾剧","日本剧","海外剧","泰国剧","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"]},
