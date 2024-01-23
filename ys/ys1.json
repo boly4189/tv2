@@ -47,7 +47,6 @@
 {"key":"体育健身","name":"体育健身","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./XBPQ/tiyu.json","jar":"./jar/fty.jar"},
 //戏曲综艺
 {"key":"央视经典","name":"央视经典","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./XBPQ/哔哩经典.json","jar":"./jar/fty.jar"},
-{"key":"央视大全js","name":"央视大全js","type":3,"api":"csp_CCTV","searchable":0,"filterable":0,"ext":"./XBPQ/央视大全.json","jar":"./jar/hccx.jar"},
 {"key":"相声小品","name":"相声小品","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./XBPQ/xiaopin.json","jar":"./jar/fty.jar"},
 {"key":"戏曲合集","name":"戏曲合集","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./XBPQ/xiqu.json","jar":"./jar/fty.jar"},
 //歌曲mv
