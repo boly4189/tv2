@@ -1,3 +1,5 @@
+//https://www.3ayy.com/vodshow/1-----------.html
+//https://www.3ayy.com/vodshow/1--------1---.html
     {
     
     "作者":"荷城茶秀",
@@ -6,7 +8,7 @@
     
     "主页url":"https://www.3wyy.com/",
     
-    "简介":"module-info-introduction\">&&</p>",
+    "简介":"请勿相信影片中的广告，以免上当受骗。+line-height: 20px;\">&&</p>",
     
     "导演":"导演：&&</div>",
     
@@ -16,7 +18,7 @@
     
     "影片状态":"集数：&&</div>",
     
-    "数组":"<a&&module-poster-item-info\"",
+    "数组":"<a&&/div></div></a>",
     
     "标题":"title=\"&&\"",
     
@@ -25,12 +27,14 @@
     "图片":"data-original=\"&&\"",
     
     "链接":"href=\"&&\"",
-
+    
     "线路数组":"data-dropdown-value=&&</div>[不包含:夸克]",
+    //"线路数组":"data-dropdown-value=&&</div>[排序:腾>达][不包含:优#奇#芒]",
+
+    "线路标题":"🌸+<span>&&</small>+集",
+    //"线路标题":"🌸+<span>&&</small>[替换:高清频道>>高清#备用频道>>备用#OK频道>>OK#</span><small>>>>共]+集",
     
-    "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
-    
-    "播放数组":"module-play-list-base\">&&</div>",
+    "播放数组":"<div class=\"module-play-list-content&&</div>",
     
     "播放标题":"<span>&&</span>",
     
