@@ -58,10 +58,19 @@
        "api": "./JS/drpy2.min.js",
        "ext": "./JS/lzcaiji.js"
    },
+  {
+      "key": "dr_ikanbot",
+      "name": "🌺机器",
+      "type": 3,
+      "searchable": 2,
+      "quickSearch": 1,
+      "filterable": 0,
+      "api": "./JS/drpy2.min.js",
+      "ext": "./JS/ikanbot3.js"
+   },
 {"key":"南瓜js","name":"南瓜影视js","type":3,"api":"./JS/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/nangua.js"},
 {"key":"南瓜","name":"南瓜影视","type":3,"api":"csp_NanGua","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"低端js","name":"低端影视js","type":3,"api":"./JS/drpy2.min.js","searchable":1,"playerType":2,"quickSearch":1,"filterable":1,"ext":"./JS/ddys.js"},
-{"key":"低端","name":"低端影视","type":3,"api":"csp_Ddrk","playerType":"2","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"低端","name":"低端影视","type":3,"api":"csp_Ddrk","playerType":"2","searchable":1,"quickSearch":1,"changeable":1,"jar": "./jar/Yoursmile.jar"},
 {"key":"B站","name":"B站影视","type":3,"api":"./JS/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/bzys.js"},
 {"key":"一起看","name":"一起看片","type":3,"api":"csp_YQKan","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"快车资源","name":"快车影视","type":1,"api":"https://caiji.kczyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"categories":["国产剧","战争片","动作片","香港剧"]},
@@ -165,10 +174,7 @@
 				"欧美综艺"
 			]
 		},
-{"key": "dr_ikanbot","name": "🌺机器","type": 3,"api": "https://agit.ai/alanchaotang/dr_py/raw/branch/main/libs/drpy2.min.js","searchable": 2,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/alanchaotang/dr_py/raw/branch/main/js/ikanbot3.js"},
-
-  
-        {
+         {
             "key": "量子资源",
             "name": "🔃量子",
             "type": 1,
