@@ -22,14 +22,6 @@
 "sites":[
 //影视综合
     {
-      "key": "drpy_js_豆瓣",
-      "name": "🔍 | 豆瓣",
-      "type": 3,
-      "api": "./JS/drpy.min.js",
-      "ext": "./JS/drpy.js"
-      "jar": "./jar/fan.txt"
-    },
-    {
       "key": "泥巴",
       "name": "泥巴",
       "type": 3,
