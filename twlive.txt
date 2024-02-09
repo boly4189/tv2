@@ -8,6 +8,9 @@ TVBS新聞台,https://www.youtube.com/watch?v=2mCSYvcfhtc
 寰宇新聞台Global,https://www.youtube.com/watch?v=vOue3tgccd0
 三立iNEWS,https://www.youtube.com/watch?v=CKjSm5ZeehE
 三立iNEWS+,https://www.youtube.com/watch?v=oZdzzvxTfUY
+CCTV1,https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8
+CCTV5,https://node1.olelive.com:6443/live/CCTV5HD/hls.m3u8
+CCTV5+,https://node1.olelive.com:6443/live/CCTV5PHD/hls.m3u8
 音乐汇聚,#genre#
 音乐汇368,https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/47053d2693ae4618bcd2bc0a84cec974/1200.m3u8
 音乐汇367,https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/24e8b3487ca04c9d8aaee145d4a75181/1200.m3u8
