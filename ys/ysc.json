@@ -1,0 +1,44 @@
+{
+    "storeHouse": [
+        {
+            "sourceName": "公众号->影用仓库",
+            "sourceUrl": "http://rihou.vip:666"
+        },
+        {
+            "sourceName": "影用仓库->欧歌",
+            "sourceUrl": "http://tv.nxog.top/"
+        },
+        {
+            "sourceName": "影用仓库->天微",
+            "sourceUrl": "https://tvkj.top/DC.txt"
+        },
+        {
+            "sourceName": "影用仓库->星辰",
+            "sourceUrl": "http://8.210.232.168/dc1.json"
+        },
+        {
+            "sourceName": "影用仓库->蚂蚁",
+            "sourceUrl": "https://agit.ai/hu/hcr/raw/branch/master/99668.txt"
+        },
+        {
+            "sourceName": "影用仓库->蜂蜜",
+            "sourceUrl": "http://fmys.top/online.json"
+        },
+        {
+            "sourceName": "影用仓库->云星日记",
+            "sourceUrl": "http://itvbox.cc/可视TV/云星日记/仓库/api.json"
+        },
+        {
+            "sourceName": "影用仓库->朱师傅",
+            "sourceUrl": "https://d.kstore.space/download/5303/zhushifu/002.txt"
+        },
+        {
+            "sourceName": "影用仓库->月光大佬",
+            "sourceUrl": "https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/d.txt"
+        },
+        {
+            "sourceName": "影用仓库->月光优选",
+            "sourceUrl": "https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/dc2.json"
+        }
+    ]
+}
